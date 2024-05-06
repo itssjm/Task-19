@@ -1,0 +1,45 @@
+1. ID:
+navbarDropdown
+
+2.Class Name
+nav-link dropdown-toggle down-icon evtCourses
+nav-link dropdown-toggle down-icon real-toggle
+w-100 pointer d-none d-sm-block ls-is-cached lazyloaded
+nav-link equipCourse active
+
+
+3. TagName
+
+
+4.CSS selector:
+div[class='d-flex mr-auto'] img
+.nav-link.dropdown-toggle.down-icon.evtCourses
+body > header:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)
+.w-100.pointer.d-none.d-sm-block.ls-is-cached.lazyloaded
+img[src='/web-build/images/award-2-desc.f5f4211b72200de61d99db197a971c39.webp']
+.nav-link.equipCourse.active
+body > main:nth-child(4) > section:nth-child(7) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(2) > a:nth-child(1)
+#subscribeEmail
+#subscribe
+.btn.btn-lg.btn-primary.learn-more
+.nav-link.equipCourse.active
+body > main:nth-child(4) > section:nth-child(7) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(2) > a:nth-child(1)
+footer div[class='mobile-select-desk'] div:nth-child(4) div:nth-child(1) p:nth-child(1)
+
+5.Xpath: 
+
+//div[@class='d-flex mr-auto']//img
+//a[@class='nav-link dropdown-toggle down-icon evtCourses']
+//li[@class='nav-item dropdown show']//a[@id='navbarDropdown']
+//img[@class='w-100 pointer d-none d-sm-block ls-is-cached lazyloaded']
+//div[@class='natinal-award px-4']//img
+//a[normalize-space()='Programming Languages']
+//a[normalize-space()='Data Science']
+//a[normalize-space()='Web Development']
+//a[normalize-space()='Cybersecurity']
+//a[normalize-space()='Database and Cloud Computing']
+//a[normalize-space()='Software Testing and Automation']
+//a[normalize-space()='Learn More']
+//button[@id='subscribe']
+//input[@id='subscribeEmail']
+//p[@class='custom-foot-heading'][normalize-space()='Products']
